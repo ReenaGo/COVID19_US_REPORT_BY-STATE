@@ -6,17 +6,17 @@ import CountryData from './Aggregated/Aggregated'
 const Div = styled.div`
 	  display: flex;
 	  flex-direction: column;
-	 text-align:center
+	 text-align:center;
   `;
 
 
 function App() {
 
 	return (
-		<div className='App'>
+		<Div className='App'>
 			<CountryData />
 			<Map />
-		</div>
+		</Div>
 	);
 }
 export default App;
